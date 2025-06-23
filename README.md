@@ -1,0 +1,1 @@
+# inteligentna-waga-iot
