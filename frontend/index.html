@@ -1,1 +1,37 @@
- 
+ <!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inteligentna Waga IoT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Inteligentna Waga IoT</h1>
+        
+        <div class="current-measurement">
+            <h2>Aktualny pomiar</h2>
+            <div id="current-data">
+                <p>Waga: <span id="weight">--</span> kg</p>
+                <p>Tkanka tłuszczowa: <span id="body-fat">--</span> %</p>
+                <p>Masa mięśniowa: <span id="muscle-mass">--</span> kg</p>
+                <p>Zawartość wody: <span id="water">--</span> %</p>
+                <p>BMI: <span id="bmi">--</span></p>
+            </div>
+        </div>
+        
+        <div class="history">
+            <h2>Historia pomiarów</h2>
+            <div id="measurements-list"></div>
+        </div>
+        
+        <div class="costs">
+            <h2>Koszty Azure</h2>
+            <div id="costs-display"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
