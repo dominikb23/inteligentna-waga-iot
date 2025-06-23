@@ -5,7 +5,7 @@ from datetime import datetime
 from azure.iot.device import IoTHubDeviceClient, Message
 
 # Dane połączenia (uzupełnisz później)
-CONNECTION_STRING = "HostName=<twój-hub>.azure-devices.net;DeviceId=<device-id>;SharedAccessKey=<key>"
+CONNECTION_STRING = "HostName=hub-inteligentna-waga-123.azure-devices.net;DeviceId=waga-01;SharedAccessKey=WrMi6oKtDy9D8AH1Gm8Uph4ow683yHM4H/jImL/L3Sc="
 
 class SmartScaleSimulator:
     def __init__(self):
